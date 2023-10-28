@@ -12,13 +12,13 @@ function Navbar() {
       <h2 style={{ color: "red", padding: "5px" }}>Rental Portal</h2>
       <div id="search-bar2">
       <DropdownButton id="dropdown-basic-button" title="Search">
-  <Dropdown.Item href="http://localhost:3000/cars" style={{ border: 'none' }}>
+  <Dropdown.Item href="https://master--heartfelt-swan-ef6b13.netlify.app/cars" style={{ border: 'none' }}>
     <p id="box-model" style={{ border: 'none' }}>Product A</p>
   </Dropdown.Item>
-  <Dropdown.Item href="http://localhost:3000/bikes" style={{ border: 'none' }}>
+  <Dropdown.Item href="https://master--heartfelt-swan-ef6b13.netlify.app/bikes" style={{ border: 'none' }}>
     <p id="box-model">Product B</p>
   </Dropdown.Item>
-  <Dropdown.Item href="http://localhost:3000/login" style={{ border: 'none' }}>
+  <Dropdown.Item href="https://master--heartfelt-swan-ef6b13.netlify.app/login" style={{ border: 'none' }}>
     <p id="box-model">Login & Reg</p>
   </Dropdown.Item>
 </DropdownButton>

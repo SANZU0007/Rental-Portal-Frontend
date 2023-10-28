@@ -46,7 +46,7 @@ const Car = () => {
 
   return (
     <div>
-      <h1><p> <a href="http://localhost:3000/">back</a></p>  </h1>
+     
       <div className="car-container">
         {cars.map((car) => (
           <div key={car.carId} className="car-card">

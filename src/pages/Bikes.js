@@ -4,13 +4,10 @@ import "./Bikes.css";
 import { useNavigate } from "react-router-dom";
 
 const Bikes = () => {
-
-
   const navigate = useNavigate();
   const book = () => {
     navigate("/bikeBooking");
   };
-
 
   const [bikes, setBikes] = useState([]);
 
@@ -42,12 +39,6 @@ const Bikes = () => {
 
   return (
     <div>
-      <h1>
-        
-        <p>
-          <a href="http://localhost:3000/">back</a>
-        </p>
-      </h1>
       <div className="bike-container">
         {bikes.map((bike, index) => (
           <div key={bike.bikeId} className="bike-card">
@@ -55,8 +46,10 @@ const Bikes = () => {
             <h2 id="bike-size1">Product Id: {bike.bikeId}</h2>
             <p id="bike-size">{bike.bikeName}</p>
             <p id="bike-size">{bike.description}</p>
-            <p id="bike-size" >Price: 1000</p>
-            <button id="bike-size3" onClick={book}>Book Now</button>
+            <p id="bike-size">Price: 1000</p>
+            <button id="bike-size3" onClick={book}>
+              Book Now
+            </button>
           </div>
         ))}
       </div>

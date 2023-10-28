@@ -14,9 +14,9 @@ function Navbar() {
       <div class="dropdown">
   <button class="dropbtn"> <b>search</b> <IoMdSearch /></button>
   <div class="dropdown-content">
-    <a href="/cars">Product A</a>
-    <a href="/bikes">Product B</a>
-    <a href="/login">Login & Reg</a>
+    <Link to="/cars">Product A</Link>
+    <Link to="/bikes">Product B</Link>
+    <Link to="/login">Login & Reg</Link>
   </div>
 </div>
 

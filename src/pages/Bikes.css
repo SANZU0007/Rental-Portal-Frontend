@@ -1,0 +1,94 @@
+/* Default styles for bike-card */
+.bike-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  body {
+
+  }
+  
+  
+  /* Hover effect for bike-card */
+  .bike-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .bike-card {
+      padding: 10px; /* Decrease padding for smaller screens */
+      margin: 10px; /* Decrease margin for smaller screens */
+    }
+    #bike-size1 {
+      font-size: 24px; /* Adjust font size for bike-id on smaller screens */
+    }
+    #bike-size {
+      font-size: 16px; /* Adjust font size for other text elements on smaller screens */
+    }
+    #bike-size {
+      font-size: 14px; /* Further adjust font size for description on smaller screens */
+    }
+    #bike-size {
+      font-size: 18px; /* Adjust font size for the button on smaller screens */
+    }
+  }
+  
+  /* Button styles */
+  #bike-size {
+     /* Change button background color */
+    color: #230085; /* Text color for the button */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+  
+  #bike-size:hover {
+    background-color: #17034d; 
+    color:rgb(255, 255, 255);/* Darken the button color on hover */
+  }
+  
+  /* Additional styles for images and descriptions */
+  .bike-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  #bike-size1 {
+    font-size: 28px;
+    color: #00025a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #bike-size {
+    font-size: 18px;
+
+    color: #01004e;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  #bike-size3 {
+    font-size: 18px;
+    background-color: #17034d; 
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius:5px;
+    
+  }
+  
+  /* Add more styles or animations as needed */
+  

@@ -1,0 +1,74 @@
+/* Login.css */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form {
+  text-align: left;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.d-grid {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.forget,
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.forget button,
+.signup button {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+}

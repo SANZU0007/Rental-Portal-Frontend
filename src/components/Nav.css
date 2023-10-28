@@ -1,0 +1,76 @@
+/* Styles for your navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #000dff;
+    background: -webkit-linear-gradient(0deg, #040111 0%, #00143a 50%, #000000 100%);
+    background: linear-gradient(0deg, #00020f 0%, #191574 50%, #1900ff 100%);/* Corrected blue background color */
+  padding: 10px;
+  height: 13%;
+}
+
+.navbar h2 {
+  color: red;
+  padding: 5px;
+  margin-right: auto;
+}
+
+.link1,
+.link3 {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Adjust the spacing and styling for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link1,
+  .link3 {
+    margin: 10px 0;
+  }
+
+  .navbar h2 {
+    font-size: 24px;
+    margin-right: 0;
+  }
+}
+
+/* You can add more media queries for different screen sizes if needed */
+#search-bar2 {
+  display: inline-block;
+  margin-left: 140px;
+  background-color:rgb(101, 104, 248);
+  color: #000dff; 
+  border-radius: 5px;/* Adjust the margin as needed */
+}
+
+#dropdown-basic-button {
+  background-color: transparent; /* Background color for the dropdown button */
+  border: none; /* Remove the border */
+  color: white; /* Text color */
+}
+
+#dropdown-basic-button:hover,
+#dropdown-basic-button:focus {
+  background-color: transparent; /* Background color on hover or focus */
+}
+
+#box-model {
+  margin: 0; /* Remove any default margin */
+  padding: 5px 10px; /* Adjust padding as needed */
+ background-color: rgb(255, 255, 255);
+ border: none; 
+  /* Text color */
+}
+
+#box-model:hover,
+#box-model:focus {
+  background-color: #5e78f5; /* Background color on hover or focus */
+  color: white; /* Text color on hover or focus */
+}

@@ -1,0 +1,52 @@
+/* Footer.css */
+.footer {
+    background: #2b2f77;
+    background: -webkit-linear-gradient(0deg, #ffffff 0%, #1c09cc 50%, #000bda 100%);
+    background: linear-gradient(0deg, #011afc 0%, #0d066d 50%, #000000 100%);/* Corrected blue background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 248); /* Navy blue background color for icons */
+    color: rgb(4, 1, 41);
+    width: 50px; /* Expanded width */
+    height: 50px; /* Expanded height */
+    border-radius: 50%;
+    font-size: 24px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .socialMedia a:hover {
+    background-color: #ff0000; /* Slightly darker shade of navy blue for hover */
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .socialMedia {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .socialMedia a {
+      width: 40px; /* Adjusted width for responsiveness */
+      height: 40px; /* Adjusted height for responsiveness */
+      font-size: 20px;
+    }
+  }

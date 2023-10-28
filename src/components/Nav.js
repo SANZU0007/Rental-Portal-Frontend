@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Dropdown from 'react-bootstrap/Dropdown';
+
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import { IoMdSearch } from 'react-icons/io';
 
@@ -11,17 +11,15 @@ function Navbar() {
     <div className="navbar">
       <h2 style={{ color: "red", padding: "5px" }}>Rental Portal</h2>
       <div id="search-bar2">
-      <DropdownButton id="dropdown-basic-button" title="Search">
-  <Dropdown.Item href="/cars" style={{ border: 'none' }}>
-    <p id="box-model" style={{ border: 'none' }}>Product A</p>
-  </Dropdown.Item>
-  <Dropdown.Item href="/bikes" style={{ border: 'none' }}>
-    <p id="box-model">Product B</p>
-  </Dropdown.Item>
-  <Dropdown.Item href="/login" style={{ border: 'none' }}>
-    <p id="box-model">Login & Reg</p>
-  </Dropdown.Item>
-</DropdownButton>
+      <div class="dropdown">
+  <button class="dropbtn"> <b>search</b> <IoMdSearch /></button>
+  <div class="dropdown-content">
+    <a href="/cars">Product A</a>
+    <a href="/bikes">Product B</a>
+    <a href="/login">Login & Reg</a>
+  </div>
+</div>
+
 
       </div>
       <Link to="/" className="link1">Home</Link>
